@@ -22,6 +22,7 @@
 		F0CFBF5A29C25BE3004A03AB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CFBF5929C25BE3004A03AB /* DetailView.swift */; };
 		F0CFBF5C29C26771004A03AB /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CFBF5B29C26771004A03AB /* DetailEditView.swift */; };
 		F0CFBF5E29C26E1E004A03AB /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CFBF5D29C26E1E004A03AB /* ThemeView.swift */; };
+		F0CFBF6029C26F1E004A03AB /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CFBF5F29C26F1E004A03AB /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		F0CFBF5929C25BE3004A03AB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		F0CFBF5B29C26771004A03AB /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		F0CFBF5D29C26E1E004A03AB /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		F0CFBF5F29C26F1E004A03AB /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				F0CFBF5929C25BE3004A03AB /* DetailView.swift */,
 				F0CFBF5B29C26771004A03AB /* DetailEditView.swift */,
 				F0CFBF5D29C26E1E004A03AB /* ThemeView.swift */,
+				F0CFBF5F29C26F1E004A03AB /* ThemePicker.swift */,
 				F0CFBF5529C238A9004A03AB /* TrailingIconLabelStyle.swift */,
 				F0CFBF2829C21F0D004A03AB /* Assets.xcassets */,
 				F0CFBF2A29C21F0D004A03AB /* Preview Content */,
@@ -289,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0CFBF6029C26F1E004A03AB /* ThemePicker.swift in Sources */,
 				F0CFBF5229C23080004A03AB /* DailyScrum.swift in Sources */,
 				F0CFBF5A29C25BE3004A03AB /* DetailView.swift in Sources */,
 				F0CFBF5C29C26771004A03AB /* DetailEditView.swift in Sources */,
