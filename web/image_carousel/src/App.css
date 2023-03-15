@@ -1,0 +1,28 @@
+.piece {
+  padding: 0.25rem;
+}
+
+#container {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#image-wrapper {
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+}
+
+.image {
+  border-radius: 0.25rem;
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+button {
+  border-radius: 0.25rem;
+  background-color: #eee;
+  border-style: none;
+}
