@@ -14,17 +14,21 @@ struct DetailEditView: View {
     var body: some View {
         Form {
             Section(header: Text("Meeting Info")) {
-                TextField("Title", text: $data.title)
-                HStack {
-                    Slider(value: $data.lengthInMinutes, in: 5...30, step: 5) {
-                        Text("Length")
+                VStack {
+                    TextField("Title", text: $data.title)
+                    Divider()
+                    HStack {
+                        Slider(value: $data.lengthInMinutes, in: 5...30, step: 5) {
+                            Text("Length")
+                        }
+                            .accessibilityValue("\(Int(data.lengthInMinutes)) minutes")
+                        Spacer()
+                        Text("\(Int(data.lengthInMinutes)) minutes")
+                            .accessibilityHidden(true)
                     }
-                    .accessibilityValue("\(Int(data.lengthInMinutes)) minutes")
-                    Spacer()
-                    Text("\(Int(data.lengthInMinutes)) minutes")
-                        .accessibilityHidden(true)
+                    Divider()
+                    ThemePicker(selection: $data.theme)
                 }
-                ThemePicker(selection: $data.theme)
             }
             Section(header: Text("Attendees")) {
                 ForEach(data.attendees) { attendee in
