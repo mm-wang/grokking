@@ -58,6 +58,13 @@ extension DailyScrum {
             theme: theme
         )
     }
+
+    mutating func update(from data: Data) {
+        title = data.title
+        attendees = data.attendees
+        lengthInMinutes = Int(data.lengthInMinutes)
+        theme = data.theme
+    }
 }
 
 extension DailyScrum {
