@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0BF51F629C33FCE00424736 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = F0BF51F529C33FCE00424736 /* ding.wav */; };
 		F0CFBF2529C21F0C004A03AB /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CFBF2429C21F0C004A03AB /* ScrumdingerApp.swift */; };
 		F0CFBF2729C21F0C004A03AB /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CFBF2629C21F0C004A03AB /* MeetingView.swift */; };
 		F0CFBF2929C21F0D004A03AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0CFBF2829C21F0D004A03AB /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F0BF51F529C33FCE00424736 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		F0CFBF2129C21F0C004A03AB /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0CFBF2429C21F0C004A03AB /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		F0CFBF2629C21F0C004A03AB /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F0BF51F229C33F9100424736 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F0BF51F529C33FCE00424736 /* ding.wav */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		F0CFBF1829C21F0C004A03AB = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +132,7 @@
 		F0CFBF2329C21F0C004A03AB /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				F0BF51F229C33F9100424736 /* Resource */,
 				F0CFBF4E29C22F3D004A03AB /* Models */,
 				F0CFBF2429C21F0C004A03AB /* ScrumdingerApp.swift */,
 				F0CFBF2629C21F0C004A03AB /* MeetingView.swift */,
@@ -282,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0CFBF2C29C21F0D004A03AB /* Preview Assets.xcassets in Resources */,
+				F0BF51F629C33FCE00424736 /* ding.wav in Resources */,
 				F0CFBF2929C21F0D004A03AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
