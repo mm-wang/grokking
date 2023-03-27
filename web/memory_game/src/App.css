@@ -5,7 +5,29 @@
   text-align: center;
 }
 
-.logo {
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.tile {
+  width: 200px;
+  height: 150px;
+  margin: 0.5rem;
+  border: 1px solid #DDD;
+}
+
+.img-tile {
+  object-fit: cover;
+}
+
+.empty {
+  background-color: #dd3;
+  /* border: 1px solid #DDD; */
+}
+
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -39,4 +61,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
